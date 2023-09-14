@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.license          = 'Apache License, Version 2.0'
   s.author           = 'GenesysCloudBold by GenesysBold360'
   s.source = {
-  "http" => "https://genesysdx.jfrog.io/artifactory/genesys-cloud-ios.dev/GenesysCloudBold/GenesysCloudBold_version_t1.5.0.rc3_commit_4ac635fe830325ba97f99ac9c2e5d4ea812ffa48.zip"
+  "http" => "https://genesysdx.jfrog.io/artifactory/genesys-cloud-ios.dev/GenesysCloudBold/GenesysCloudBold_version_t1.5.0.rc4_commit_4ac635fe830325ba97f99ac9c2e5d4ea812ffa48.zip"
   }
   s.vendored_frameworks = 'GenesysCloudBold.xcframework'
   s.requires_arc = true
