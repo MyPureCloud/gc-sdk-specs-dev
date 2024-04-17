@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.license          = 'Apache License, Version 2.0'
   s.author           = 'GenesysCloud by Genesys'
   s.source = {
-  "http" => "https://genesysdx.jfrog.io/artifactory/genesys-cloud-ios.dev/GenesysCloud/GenesysCloud_version_t1.9.0.rc7_commit_20c523693dd58b2483734be7daf9b060bc2c24ce.zip"
+  "http" => "https://genesysdx.jfrog.io/artifactory/genesys-cloud-ios.dev/GenesysCloud/GenesysCloud_version_t1.9.0.rc8_commit_f5199da0bf2aa75bd8a73cc6e8712b133e427821.zip"
   }
 
   s.ios.deployment_target  = '13.0'
@@ -27,7 +27,6 @@ Pod::Spec.new do |s|
     sp.requires_arc = true
 
     # Private Pod frameworks
-    sp.dependency 'GenesysCloudAccessibility', '1.9.0'
     sp.dependency 'GenesysCloudBot', '1.9.0'
     sp.dependency 'GenesysCloudBold', '1.9.0'
     sp.dependency 'GenesysCloudCore', '1.9.0'
