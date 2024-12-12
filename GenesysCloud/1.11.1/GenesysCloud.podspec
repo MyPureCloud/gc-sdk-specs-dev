@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.license          = 'Apache License, Version 2.0'
   s.author           = 'GenesysCloud by Genesys'
   s.source = {
-  "http" => "https://genesysdx.jfrog.io/artifactory/genesys-cloud-ios.dev/GenesysCloud/GenesysCloud_version_t1.11.1.rc1_commit_a82f3c866ee329a8243d95db7b9a0aaea673d0ae.zip"
+  "http" => "https://genesysdx.jfrog.io/artifactory/genesys-cloud-ios.dev/GenesysCloud/GenesysCloud_version_t1.11.1.rc2_commit_56af3d3dc2d8a223ef6b641dec59d95602e8f824.zip"
   }
 
   s.ios.deployment_target  = '15.0'
@@ -27,8 +27,8 @@ Pod::Spec.new do |s|
     sp.requires_arc = true
 
     # Private Pod frameworks
-    sp.dependency 'GenesysCloudCore', '1.11.0'
-    sp.dependency 'GenesysCloudMessenger', '1.11.0'
+    sp.dependency 'GenesysCloudCore', '1.11.1'
+    sp.dependency 'GenesysCloudMessenger', '1.11.1'
     sp.pod_target_xcconfig = { 'CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF' => 'NO'}
   end
 
