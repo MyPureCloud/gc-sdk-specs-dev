@@ -17,7 +17,7 @@ GenesysCloudMessenger is an SDK that used as chat handler for GenesysCloud API.
   s.license          = 'Apache License, Version 2.0'
   s.author           = 'GenesysCloudMessenger by Genesys'
   s.source = {
-  "http" => "https://genesysdx.jfrog.io/artifactory/genesys-cloud-ios.dev/GenesysCloudMessenger/GenesysCloudMessenger_version_t1.14.0.rc12_commit_1ea9765a6ad9a234ce1fde0cba8f098624c05df8.zip"
+  "http" => "https://genesysdx.jfrog.io/artifactory/genesys-cloud-ios.dev/GenesysCloudMessenger/GenesysCloudMessenger_version_t1.14.0.rc13_commit_e174118173bfc60d7db4d79433453d343042040c.zip"
   }
   
   s.vendored_frameworks = 'GenesysCloudMessenger.xcframework'
@@ -27,7 +27,7 @@ GenesysCloudMessenger is an SDK that used as chat handler for GenesysCloud API.
   s.libraries = ['icucore']
   # Private Pod frameworks dependency
   s.dependency 'GenesysCloudCore', '1.14.0'
-  s.dependency 'GenesysCloudMessengerTransport', '2.8.4.1'
+  s.dependency 'GenesysCloudMessengerTransport', '2.8.4'
   s.swift_version = '5.0'
 
 end
