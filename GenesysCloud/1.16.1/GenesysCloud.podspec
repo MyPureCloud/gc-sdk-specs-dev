@@ -6,7 +6,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GenesysCloud'
-  s.version = '1.16.1'
+  s.version          = '1.16.1'
   s.summary          = 'The GenesysCloud Chat SDK.'
   s.description      = <<-DESC
     The GenesysCloud Chat SDK framework enables you to implement a fully customized Chat Window and integrate GenesysCloud with your applications more deeply.
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.license          = 'Apache License, Version 2.0'
   s.author           = 'GenesysCloud by Genesys'
   s.source = {
-  "http" => "https://genesysdx.jfrog.io/artifactory/genesys-cloud-ios.dev/GenesysCloud/GenesysCloud_version_t1.16.1.rc1_commit_9a3aa3cdf70838e8b7ec1c9d05b70d1e4358bb02.zip"
+  "http" => "https://genesysdx.jfrog.io/artifactory/genesys-cloud-ios.dev/GenesysCloud/GenesysCloud_version_1.16.1-SNAPSHOT-hotfix-1.16.1-3_commit_591f05a8c1632423fa4d3299e6643d108b792080.zip"
   }
 
   s.ios.deployment_target  = '15.0'
