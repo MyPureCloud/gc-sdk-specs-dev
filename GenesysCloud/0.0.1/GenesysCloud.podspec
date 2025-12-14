@@ -15,12 +15,12 @@ Pod::Spec.new do |s|
   s.license          = 'Apache License, Version 2.0'
   s.author           = 'GenesysCloud by Genesys'
   s.source = {
-  "http" => "https://genesysdx.jfrog.io/artifactory/genesys-cloud-ios.dev/GenesysCloud/GenesysCloud_version_0.0.1-SNAPSHOT-PR-108-2_commit_6f0cc037a5c8c09d285b2a4fc241c4822c11ac00.zip"
+  "http" => "https://genesysdx.jfrog.io/artifactory/genesys-cloud-ios.dev/GenesysCloud/GenesysCloud_version_0.0.1-SNAPSHOT-PR-120-4_commit_0cbd35d3a16fa6249bfb5c06e3f5864beb6f74b7.zip"
   }
 
   s.ios.deployment_target  = '15.0'
   s.static_framework = true
-  s.swift_version = '5.10'
+  s.swift_version = '5.0'
 
   s.subspec 'Core' do |sp|
     sp.vendored_frameworks = 'GenesysCloud.xcframework'
