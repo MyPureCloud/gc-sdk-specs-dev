@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.license          = 'Apache License, Version 2.0'
   s.author           = 'GenesysCloud by Genesys'
   s.source = {
-  "http" => "https://genesysdx.jfrog.io/artifactory/genesys-cloud-ios.dev/GenesysCloud/GenesysCloud_version_1.21.0-SNAPSHOT-feature-GMMS-7301-implicit-flow-8_commit_4468eabe7b540948bdc8b7d01b970eea670a438b.zip"
+  "http" => "https://genesysdx.jfrog.io/artifactory/genesys-cloud-ios.dev/GenesysCloud/GenesysCloud_version_1.21.0.rc1_commit_ee0ded99b7460c978ce548bcfc9b441ac4d4369c.zip"
   }
 
   s.ios.deployment_target  = '15.0'
